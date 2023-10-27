@@ -188,7 +188,7 @@ sources:
         LET _ <= if(condition=Update, then={
         SELECT * FROM execve(argv=['cmd.exe', '/c', 'cd', LokiDir, '&', LokiExe, '--update']) })
 
-        LET CSVFile <= LokiDir + '\\loki_results.csv'
+        LET CSVFile <= 'C:\\Windows\\System32\\loki_results.csv'
 
         -- Build the command line considering all options
         LET cmdline <= filter(list=(

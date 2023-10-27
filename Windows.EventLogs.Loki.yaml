@@ -125,7 +125,7 @@ parameters:
  - name: Update
    description: "Update the signatures from the \"signature-base\" sub repository"
    type: bool
-   default: N
+   default: Y
  - name: Debug
    description: "Debug output"
    type: bool
